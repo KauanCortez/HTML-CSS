@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+body {
+  background-color: hsl(160deg, 100%, 90%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+  color: lightblue;
+  background-color: darkgreen;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(120, 100%, 15%);
+}
+
+h2 {
+  color: hsl(160deg, 100%, 15%);
+}
+
+.basico {
+  color: hsl(120, 100%, 25%);
+}
+
+.intermediario {
+  color: hsl(60, 100%, 25%);
+}
+
+.avancado {
+  color: hsl(0, 100%, 35%);
+}
