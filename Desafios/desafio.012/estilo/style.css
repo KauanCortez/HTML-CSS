@@ -1,4 +1,4 @@
-@charset 'Utf-8';
+@charset 'UTF-8';
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
@@ -11,37 +11,37 @@
 }
 
 * {
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
 }
 
 html, body {
-  max-height: 100%;
   background-color: darkgray;
+  max-height: 100vh;
   font-family: var(--font1);
 }
 
 header {
   background-color: black;
-  color: white;
   text-align: center;
+  color: white;
 }
 
 header h1 {
   padding-top: 50px;
-  font-variant: small-caps; 
-  font-family: var(--font2);
+  font-variant: small-caps;
   font-size: 10vw;
- }
- 
+  font-family: var(--font2);
+}
+
 header p {
   padding-bottom: 50px;
 }
- 
+
 header a, footer a {
-  font-weight: bolder;
   color: white;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 header a:hover, footer a:hover {
@@ -50,10 +50,14 @@ header a:hover, footer a:hover {
 
 section {
   padding: 10vh 0vh;
-  line-height: 2em;
   padding-left: 30px;
+  line-height: 2em;
+  font-size: 4vw;
   font-family: var(--font3);
-  font-size: 3.5vw;
+}
+
+section p {
+  padding-bottom: 1em;
 }
 
 section.normal {
@@ -64,18 +68,35 @@ section.normal {
 section.imagem {
   background-color: rgba(0, 0, 0, 0.41);
   color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.41);
 }
 
 section.imagem p {
+  background-color: rgba(0, 0, 0, 0.45);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.41);
+  border-radius: 5px;
   display: inline-block;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.41);
+  padding: 5px;
 }
-  
+
+section#imagem01 {
+  background-image: url('../imagens/background001.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#imagem02 {
+  background-image: url('../imagens/background002.jpg');
+  background-position: right bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 footer {
   background-color: black;
-  text-align: center;
-  font-size: 0.8em;
   color: white;
+  text-align: center;
+  font-size: 3vw;
   padding: 5px;
 }
