@@ -8,7 +8,7 @@
   --font1: Verdana, Geneva, Tahoma, sans-serif;
   --font2: 'Passion One', cursive;
   --font3: 'Sriracha', cursive;
-}
+} 
 
 * {
   padding: 0px;
@@ -23,8 +23,8 @@ html, body {
 
 header {
   background-color: black;
-  text-align: center;
   color: white;
+  text-align: center;
 }
 
 header h1 {
@@ -68,35 +68,35 @@ section.normal {
 section.imagem {
   background-color: rgba(0, 0, 0, 0.41);
   color: white;
-  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.41);
 }
 
 section.imagem p {
-  background-color: rgba(0, 0, 0, 0.45);
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.41);
-  border-radius: 5px;
   display: inline-block;
+  background-color: rgba(0, 0, 0, 0.41);
   padding: 5px;
+  border-radius: 5px;
 }
 
 section#imagem01 {
   background-image: url('../imagens/background001.jpg');
-  background-position: center center;
   background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.41);
 }
 
 section#imagem02 {
   background-image: url('../imagens/background002.jpg');
-  background-position: right bottom;
   background-size: cover;
+  background-position: right bottom;
   background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.41);
 }
 
 footer {
   background-color: black;
   color: white;
-  text-align: center;
-  font-size: 3vw;
   padding: 5px;
+  font-size: 3vw;
+  text-align: center;
 }
